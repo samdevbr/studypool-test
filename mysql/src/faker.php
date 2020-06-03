@@ -24,7 +24,7 @@ function createUsers(int $amount)
     }
 }
 
-createUsers(5000);
+createUsers(100000);
 
 function createQuestions(int $amount)
 {
@@ -37,12 +37,12 @@ function createQuestions(int $amount)
 
         $stmt->execute([
             $faker->unixTime,
-            $faker->numberBetween(1, 5000)
+            $faker->numberBetween(1, 90000)
         ]);
     }
 }
 
-createQuestions(5000);
+createQuestions(100000);
 
 function createBids(int $amount)
 {
@@ -55,11 +55,11 @@ function createBids(int $amount)
 
         $stmt->execute([
             $faker->unixTime,
-            $faker->numberBetween(1, 5000),
-            $faker->numberBetween(1, 5000),
+            $faker->numberBetween(1, 90000),
+            $faker->numberBetween(1, 90000),
             $faker->numberBetween(1, 20),
         ]);
     }
 }
 
-createBids(5000);
+createBids(100000);
