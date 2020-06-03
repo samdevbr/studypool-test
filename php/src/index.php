@@ -39,7 +39,6 @@ function printRecipe(Recipe $recipe)
     }
 }
 
-
 $gram = new MeasurementUnit("Gram", "g");
 $milliliter = new MeasurementUnit("Milliliter", "ml");
 /**
