@@ -1,0 +1,17 @@
+{
+    "name": "samuel/studypool-php-test",
+    "description": "The PHP test for Studypool",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Samuel Oliveira",
+            "email": "samueldevbr@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
