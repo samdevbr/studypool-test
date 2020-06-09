@@ -56,7 +56,7 @@ $noKneadBread->setIngredients(
     new Ingredient("Bread Flour", $gram, 400),
     new Ingredient("Instant Yeast", $gram, 10),
     new Ingredient("Water", $milliliter, 260),
-    new Ingredient("Salt", $gram, 260),
+    new Ingredient("Salt", $gram, 260)
 );
 
 $noKneadBread->setCookware(
@@ -64,7 +64,7 @@ $noKneadBread->setCookware(
     new KitchenUtensil("Large Mixing Bowl"),
     new KitchenUtensil("Towel"),
     new KitchenUtensil("Oven"),
-    new KitchenUtensil("Cooling Rack"),
+    new KitchenUtensil("Cooling Rack")
 );
 
 $noKneadBread->setInstructions(
@@ -77,7 +77,7 @@ $noKneadBread->setInstructions(
     new RecipeInstruction(4, "Place dutch oven in oven"),
     new RecipeInstruction(3, "Cover with damp towel and set aside for 24 hours"),
     new RecipeInstruction(2, "Mix all ingredients until there is no dry flour"),
-    new RecipeInstruction(1, "Put all ingredients in mixing bowl"),
+    new RecipeInstruction(1, "Put all ingredients in mixing bowl")
 );
 
 $beefGravy = new Recipe("Beef gravy", $cookingType);
@@ -86,12 +86,12 @@ $beefGravy->setIngredients(
     new Ingredient("Butter", $cups, 2),
     new Ingredient("All purpose flour", $cups, 2),
     new Ingredient("Beef broth", $cups, 4),
-    new Ingredient("Salt and Pepper to taste", null),
+    new Ingredient("Salt and Pepper to taste", null)
 );
 
 $beefGravy->setCookware(
     new KitchenUtensil("Sauce pan"),
-    new KitchenUtensil("Spatula"),
+    new KitchenUtensil("Spatula")
 );
 
 $beefGravy->setInstructions(
@@ -99,7 +99,7 @@ $beefGravy->setInstructions(
     new RecipeInstruction(2, "Add flour and mix together to form a paste"),
     new RecipeInstruction(3, "Once desired color achieved, add in beef broth"),
     new RecipeInstruction(4, "Simmer until thickness is achieved"),
-    new RecipeInstruction(5, "Season with salt and pepper to taste"),
+    new RecipeInstruction(5, "Season with salt and pepper to taste")
 );
 
 $cheeseBread = new Recipe("Brazilian Cheese Bread", $bakingType);
@@ -112,7 +112,7 @@ $cheeseBread->setIngredients(
     new Ingredient("Tapioca flour", $cups, 2),
     new Ingredient("Minced garlic", $teaspoon, 2),
     new Ingredient("Freshly grated Parmesan cheese", $cups, 4),
-    new Ingredient("Beaten eggs", null, 2),
+    new Ingredient("Beaten eggs", null, 2)
 );
 
 $cheeseBread->setInstructions(
@@ -127,7 +127,7 @@ $cheeseBread->setInstructions(
     \tbe chunky like cottage cheese. Drop rounded, 1/4 cup-sized balls of the mixture onto
     \tan ungreased baking sheet.
     EOT),
-    new RecipeInstruction(4, "Bake in preheated oven until the tops are lightly browned, 15 to 20 minutes."),
+    new RecipeInstruction(4, "Bake in preheated oven until the tops are lightly browned, 15 to 20 minutes.")
 );
 
 printRecipe($noKneadBread);
