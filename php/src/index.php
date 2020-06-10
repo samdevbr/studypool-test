@@ -117,16 +117,12 @@ $cheeseBread->setIngredients(
 
 $cheeseBread->setInstructions(
     new RecipeInstruction(1, "Preheat oven to 375 degrees F (190 degrees C)."),
-    new RecipeInstruction(2, <<<EOT
-    Pour olive oil, water, milk, and salt into a large saucepan, and place over high heat.
-    \tWhen the mixture comes to a boil, remove from heat immediately, and stir in tapioca
-    \tflour and garlic until smooth. Set aside to rest for 10 to 15 minutes.
-    EOT),
-    new RecipeInstruction(3, <<<EOT
-    Stir the cheese and egg into the tapioca mixture until well combined, the mixture will
-    \tbe chunky like cottage cheese. Drop rounded, 1/4 cup-sized balls of the mixture onto
-    \tan ungreased baking sheet.
-    EOT),
+    new RecipeInstruction(2, "Pour olive oil, water, milk, and salt into a large saucepan, and place over high heat.\n
+    \tWhen the mixture comes to a boil, remove from heat immediately, and stir in tapioca\n
+    \tflour and garlic until smooth. Set aside to rest for 10 to 15 minutes."),
+    new RecipeInstruction(3, "Stir the cheese and egg into the tapioca mixture until well combined, the mixture will\n
+    \tbe chunky like cottage cheese. Drop rounded, 1/4 cup-sized balls of the mixture onto\n
+    \tan ungreased baking sheet."),
     new RecipeInstruction(4, "Bake in preheated oven until the tops are lightly browned, 15 to 20 minutes.")
 );
 
